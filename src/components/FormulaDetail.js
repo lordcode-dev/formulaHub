@@ -11,28 +11,35 @@ function FormulaDetail() {
   }
 
   return (
-    <div>
+    <div className="formula-detail">
       <h2>{formula.name}</h2>
       <p><strong>Category:</strong> {formula.category}</p>
       <p><strong>Formula:</strong></p>
-      <p style={{ fontSize: '1.5rem' }}>
-        <code>{formula.formula}</code>
-      </p>
+      <pre style={{ fontSize: '1.3rem', backgroundColor: '#f0f0f0', padding: '0.5rem' }}>
+        {formula.formula}
+      </pre>
       <p><strong>Explanation:</strong> {formula.explanation}</p>
 
-      <h4>Variables:</h4>
-      <ul>
-        {formula.variables.map((v, index) => (
-          <li key={index}><strong>{v.symbol}</strong>: {v.meaning}</li>
-        ))}
-      </ul>
+      {formula.variables && (
+        <>
+          <h4>Variables:</h4>
+          <ul>
+            {formula.variables.map((v, i) => (
+              <li key={i}><strong>{v.symbol}</strong>: {v.meaning}</li>
+            ))}
+          </ul>
+        </>
+      )}
 
-      <h4>Example:</h4>
-      <p><strong>Problem:</strong> {formula.example.problem}</p>
-      <p><strong>Solution:</strong> {formula.example.solution}</p>
+      {formula.example && (
+        <>
+          <h4>Example:</h4>
+          <p><strong>Problem:</strong> {formula.example.problem}</p>
+          <p><strong>Solution:</strong> {formula.example.solution}</p>
+        </>
+      )}
     </div>
   );
 }
 
 export default FormulaDetail;
-
