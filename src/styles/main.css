@@ -1,1 +1,129 @@
+/* ----------- Base Reset ----------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------- Layout ----------- */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ----------- Navbar ----------- */
+.navbar {
+  background-color: #1e3a8a;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-links a {
+  color: #dbeafe;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* ----------- Footer ----------- */
+.footer {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-links a {
+  color: #93c5fd;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* ----------- Formula List ----------- */
+.formula-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.formula-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.formula-list a {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.formula-list a:hover {
+  text-decoration: underline;
+}
+
+/* ----------- Formula Detail ----------- */
+.formula-detail {
+  background: #ffffff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.formula-detail pre {
+  background-color: #f3f4f6;
+  padding: 0.75rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Courier New', monospace;
+}
+
+/* ----------- Search Bar ----------- */
+.search-bar {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1.25rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .navbar-links {
+    display: none;
+  }
+}
 
