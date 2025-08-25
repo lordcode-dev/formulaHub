@@ -2,7 +2,6 @@
 
 **FormulaHub** is a comprehensive and searchable library of math formulas with clear explanations, variable definitions, and practical examples — built with React.
 
-![FormulaHub Screenshot](https://your-screenshot-url.com) <!-- Replace or remove -->
 
 ---
 
