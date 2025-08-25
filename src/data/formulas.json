@@ -1,1 +1,54 @@
+[
+  {
+    "id": "quadratic_formula",
+    "category": "Algebra",
+    "name": "Quadratic Formula",
+    "formula": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+    "explanation": "Used to find the roots of a quadratic equation of the form ax² + bx + c = 0.",
+    "variables": [
+      { "symbol": "a", "meaning": "Coefficient of x²" },
+      { "symbol": "b", "meaning": "Coefficient of x" },
+      { "symbol": "c", "meaning": "Constant term" }
+    ],
+    "example": {
+      "problem": "Solve 2x² - 4x - 6 = 0",
+      "solution": "x = (4 ± √(16 + 48)) / 4 → x = 3 or x = -1"
+    },
+    "tags": ["quadratic", "roots", "algebra"]
+  },
+  {
+    "id": "area_circle",
+    "category": "Geometry",
+    "name": "Area of a Circle",
+    "formula": "A = \\pi r^2",
+    "explanation": "Gives the area of a circle given its radius.",
+    "variables": [
+      { "symbol": "A", "meaning": "Area of the circle" },
+      { "symbol": "r", "meaning": "Radius of the circle" },
+      { "symbol": "\\pi", "meaning": "Pi, approximately 3.14159" }
+    ],
+    "example": {
+      "problem": "Find the area of a circle with radius 3 cm.",
+      "solution": "A = π × 3² = 28.27 cm²"
+    },
+    "tags": ["circle", "area", "geometry"]
+  },
+  {
+    "id": "pythagorean_theorem",
+    "category": "Geometry",
+    "name": "Pythagorean Theorem",
+    "formula": "c^2 = a^2 + b^2",
+    "explanation": "Used to find the length of a side in a right-angled triangle.",
+    "variables": [
+      { "symbol": "a", "meaning": "One side of the triangle" },
+      { "symbol": "b", "meaning": "Another side of the triangle" },
+      { "symbol": "c", "meaning": "Hypotenuse (longest side)" }
+    ],
+    "example": {
+      "problem": "Find the hypotenuse when a = 3 and b = 4",
+      "solution": "c = √(3² + 4²) = √25 = 5"
+    },
+    "tags": ["triangle", "right-angle", "geometry"]
+  }
+]
 
