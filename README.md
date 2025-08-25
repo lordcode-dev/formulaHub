@@ -18,7 +18,7 @@
 
 ## 📦 Live Demo
 
-👉 [Visit FormulaHub](https://your-username.github.io/formulaHub)  
+👉 [Visit FormulaHub](https://lordcode-dev.github.io/formulaHub)  
 *(Replace with your actual GitHub Pages link)*
 
 ---
