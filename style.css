@@ -1,1 +1,88 @@
+:root {
+  --bg-color: #0f1220;
+  --text-color: white;
+  --card-bg: #181c35;
+  --accent: #6c7bff;
+}
+
+body {
+  margin:0;
+  font-family: 'Poppins', Arial;
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 20px;
+}
+
+header {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.controls input, .controls select, .controls button {
+  padding:8px;
+  margin:5px;
+  border-radius:6px;
+  border:none;
+}
+
+.formula-card {
+  background: var(--card-bg);
+  padding:15px;
+  margin:10px 0;
+  border-radius:10px;
+}
+
+.calculator input {
+  width:60px;
+  margin:2px;
+  padding:4px;
+}
+
+button {
+  padding:6px 12px;
+  background: var(--accent);
+  color:white;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.copy-btn {
+  margin-top:8px;
+}
+
+/* Modal */
+.modal {
+  display:none;
+  position:fixed;
+  z-index:100;
+  left:0; top:0;
+  width:100%; height:100%;
+  background: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background:#181c35;
+  margin:15% auto;
+  padding:20px;
+  width:80%;
+  border-radius:10px;
+  text-align:center;
+}
+
+#modalClose {
+  float:right;
+  font-size:20px;
+  cursor:pointer;
+}
+
+/* Responsive grid */
+main {
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+  gap:15px;
+}
 
