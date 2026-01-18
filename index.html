@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FormulaHub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+  <header>
+    <h1>📘 FormulaHub</h1>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search formulas...">
+      <select id="categoryFilter">
+        <option value="">All Categories</option>
+      </select>
+      <button id="themeToggle">🌙</button>
+    </div>
+  </header>
+  
+  <main id="formulas"></main>
+
+  <!-- Modal for calculation results -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modalClose">&times;</span>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <template id="formula-template">
+    <div class="formula-card">
+      <h2 class="formula-name"></h2>
+      <p class="formula-text"></p>
+      <p class="formula-desc"></p>
+      <div class="calculator"></div>
+      <button class="copy-btn">Copy Formula</button>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
