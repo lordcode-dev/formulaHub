@@ -1,1 +1,18 @@
+[
+  {"id":1,"name":"Quadratic Formula","category":"Algebra","formula":"x = (-b ± √(b²-4ac))/(2a)","description":"Solve ax² + bx + c = 0","inputs":["a","b","c"],"calc":"(-b + Math.sqrt(b*b-4*a*c))/(2*a)"},
+  {"id":2,"name":"Slope of a Line","category":"Algebra","formula":"m = (y₂ - y₁)/(x₂ - x₁)","description":"Slope between two points","inputs":["x1","y1","x2","y2"],"calc":"(y2 - y1)/(x2 - x1)"},
+  {"id":3,"name":"Area of Circle","category":"Geometry","formula":"A = πr²","description":"Area of a circle","inputs":["r"],"calc":"Math.PI*r*r"},
+  {"id":4,"name":"Circumference of Circle","category":"Geometry","formula":"C = 2πr","description":"Circumference of a circle","inputs":["r"],"calc":"2*Math.PI*r"},
+  {"id":5,"name":"Pythagoras Theorem","category":"Trigonometry","formula":"c² = a² + b²","description":"Relation in right triangle","inputs":["a","b"],"calc":"Math.sqrt(a*a + b*b)"},
+  {"id":6,"name":"Sine Rule","category":"Trigonometry","formula":"a/sinA = b/sinB = c/sinC","description":"Relates sides and angles in triangle","inputs":["a","A","b","B","c","C"],"calc":"a/Math.sin(A) === b/Math.sin(B) && b/Math.sin(B) === c/Math.sin(C)"},
+  {"id":7,"name":"Derivative of xⁿ","category":"Calculus","formula":"d/dx(xⁿ) = n*xⁿ⁻¹","description":"Derivative of a power function","inputs":["n","x"],"calc":"n*Math.pow(x,n-1)"},
+  {"id":8,"name":"Integral of xⁿ","category":"Calculus","formula":"∫xⁿ dx = xⁿ⁺¹/(n+1) + C","description":"Indefinite integral of a power function","inputs":["n","x"],"calc":"Math.pow(x,n+1)/(n+1)"},
+  {"id":9,"name":"Mean","category":"Statistics","formula":"μ = Σx / n","description":"Average of values","inputs":["x1","x2","x3","x4","x5"],"calc":"(x1+x2+x3+x4+x5)/5"},
+  {"id":10,"name":"Variance","category":"Statistics","formula":"σ² = Σ(x - μ)² / n","description":"Variance of values","inputs":["x1","x2","x3","x4","x5","mean"],"calc":"((x1-mean)**2+(x2-mean)**2+(x3-mean)**2+(x4-mean)**2+(x5-mean)**2)/5"},
+  {"id":11,"name":"Newton's 2nd Law","category":"Physics","formula":"F = m * a","description":"Force = mass × acceleration","inputs":["m","a"],"calc":"m*a"},
+  {"id":12,"name":"Kinetic Energy","category":"Physics","formula":"KE = 1/2 * m * v²","description":"Kinetic energy of a moving body","inputs":["m","v"],"calc":"0.5*m*v*v"},
+  {"id":13,"name":"Gravitational Potential Energy","category":"Physics","formula":"U = m * g * h","description":"Potential energy due to height","inputs":["m","g","h"],"calc":"m*g*h"},
+  {"id":14,"name":"Ohm's Law","category":"Physics","formula":"V = I * R","description":"Voltage = current × resistance","inputs":["I","R"],"calc":"I*R"},
+  {"id":15,"name":"Circumference of Ellipse","category":"Geometry","formula":"C ≈ π [ 3(a+b) - √((3a+b)(a+3b)) ]","description":"Approximation of ellipse perimeter","inputs":["a","b"],"calc":"Math.PI*(3*(a+b)-Math.sqrt((3*a+b)*(a+3*b)))"}
+]
 
