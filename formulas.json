@@ -14,12 +14,7 @@
   {"id":13,"name":"Gravitational Potential Energy","category":"Physics","formula":"U = m * g * h","description":"Potential energy due to height","inputs":["m","g","h"],"calc":"m*g*h"},
   {"id":14,"name":"Ohm's Law","category":"Physics","formula":"V = I * R","description":"Voltage = current × resistance","inputs":["I","R"],"calc":"I*R"},
   {"id":15,"name":"Circumference of Ellipse","category":"Geometry","formula":"C ≈ π [ 3(a+b) - √((3a+b)(a+3b)) ]","description":"Approximation of ellipse perimeter","inputs":["a","b"],"calc":"Math.PI*(3*(a+b)-Math.sqrt((3*a+b)*(a+3*b)))"}
-  {"id":16,"name":"Linear Equation","category":"Algebra","formula":"x = (b - c) / a","description":"Solve ax + c = b","inputs":["a","b","c"],"calc":"(b-c)/a"},
-  {"id":17,"name":"Quadratic Discriminant","category":"Algebra","formula":"Δ = b² - 4ac","description":"Determines the nature of roots of a quadratic equation","inputs":["a","b","c"],"calc":"b*b-4*a*c"},
-  {"id":18,"name":"Distance Between Two Points","category":"Algebra","formula":"d = √((x₂-x₁)² + (y₂-y₁)²)","description":"Distance between two points in a coordinate plane","inputs":["x1","y1","x2","y2"],"calc":"Math.sqrt((x2-x1)**2+(y2-y1)**2)"},
-  {"id":19,"name":"Midpoint Formula","category":"Algebra","formula":"M = ((x₁+x₂)/2, (y₁+y₂)/2)","description":"Find the midpoint between two points","inputs":["x1","y1","x2","y2"],"calc":"[(x1+x2)/2,(y1+y2)/2]"},
-  {"id":20,"name":"Point-Slope Form","category":"Algebra","formula":"y-y₁ = m(x-x₁)","description":"Equation of a line from a point and slope","inputs":["m","x1","y1","x"],"calc":"y1+m*(x-x1)"},
-
+  
 
 ]
 
